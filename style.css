@@ -1,0 +1,141 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+body {
+  background-color: white;
+background:url("http://freelargephotos.com/003129_l.jpg");
+  color: black;
+  font-family: Verdana;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align:center;
+    margin: 0 auto;
+    /*padding:2px;*/
+}
+
+.grid {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+    text-align:center;
+}
+
+.row {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap:wrap;
+    text-align:center;
+    margin: 0 auto;
+}
+.col_1{
+  width:8.33%;
+}
+.col_2{
+  width:16.66%;
+}
+.col_3{
+  width:25%;
+}
+.col_4{
+  width:33.33%;
+}
+.col_5{
+  width:41.66%;
+}
+.col_6{
+  width:50%;
+}
+.col_7{
+  width:58.33%;
+}
+.col_8{
+  width:66.66%;
+}
+.col_9{
+  width:75%;
+}
+.col_10{
+  width:83.33%;
+}
+.col_11{
+  width:91.66%;
+}
+.col_12{
+  width:100%;
+}
+img{
+  max-width:100%;
+  height:auto;
+  border:10px ridge red;
+}
+#gif{
+  border:none;
+}
+p{
+    /*text-align:center;*/
+    padding:20px;
+    /*margin: 0 auto;*/
+    font-size:14px;
+    color:blue;
+    font-weight:bold; 
+    background-color:white;
+    border:5px solid red;
+    overflow:auto;
+   /*font-family: Garamond, Baskerville, â€œBaskerville Old Faceâ€, â€œHoefler Textâ€, â€œTimes New Romanâ€, serif;*/
+}
+#header{
+   /*width:100%;
+    height:100px;*/
+    /*border-radius:30px;*/
+    /*text-align:center;*/
+   /* background-position:center top;
+    
+   
+    background-color:white;*/
+    /*text-shadow:6px 6px 6px black;*/
+     font-family: 'Dancing Script', Garamond;
+
+}
+button{
+    color:red;
+    background-color:white;
+    cursor:pointer;
+    height:30px;
+    width:120px;
+    font-size:20px;
+    margin-top:2px;
+    border:2px solid blue;
+    border-radius:5px;
+}
+button:hover{
+    background-color:yellow;
+    border:none;
+}
+h1{
+  color:red;
+    /*font-weight: 600;*/
+  /*font-size: 64px;*/
+}
+#menu{
+  width: 100%;
+  background-color: blue;
+  border-radius: 5px;
+  padding:2px;
+  
+}
+#by{
+
+    /*margin: 0 auto;*/
+    font-size:12px;
+    color:blue;
+    font-weight:bold; 
+
+    overflow:auto;
+  
+}
